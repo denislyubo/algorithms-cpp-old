@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualCall", "VirtualCall\VirtualCall.vcxproj", "{D909B894-3372-477A-A7FE-79BB51542442}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtDestructor", "VirtDestructor\VirtDestructor.vcxproj", "{96A9C4CD-BD76-48A3-8A09-06C0E0C86173}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualConstructor", "VirtualConstructor\VirtualConstructor.vcxproj", "{B454ABFA-5A62-41D9-9B54-E95C267781BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemprotaryObjects", "TemprotaryObjects\TemprotaryObjects.vcxproj", "{9F4C04F7-8EAC-4396-B75C-1BFFDD38D0B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiInheritance", "MultiInheritance\MultiInheritance.vcxproj", "{D0704193-B392-4B84-BB9C-835382FECACE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtTrick", "VirtTrick\VirtTrick.vcxproj", "{3D0818FA-51C0-43CD-9030-120D00EC08EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExeptionRollBack", "ExeptionRollBack\ExeptionRollBack.vcxproj", "{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D909B894-3372-477A-A7FE-79BB51542442}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D909B894-3372-477A-A7FE-79BB51542442}.Debug|Win32.Build.0 = Debug|Win32
+		{D909B894-3372-477A-A7FE-79BB51542442}.Debug|x64.ActiveCfg = Debug|Win32
+		{D909B894-3372-477A-A7FE-79BB51542442}.Release|Win32.ActiveCfg = Release|Win32
+		{D909B894-3372-477A-A7FE-79BB51542442}.Release|Win32.Build.0 = Release|Win32
+		{D909B894-3372-477A-A7FE-79BB51542442}.Release|x64.ActiveCfg = Release|Win32
+		{96A9C4CD-BD76-48A3-8A09-06C0E0C86173}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96A9C4CD-BD76-48A3-8A09-06C0E0C86173}.Debug|Win32.Build.0 = Debug|Win32
+		{96A9C4CD-BD76-48A3-8A09-06C0E0C86173}.Debug|x64.ActiveCfg = Debug|Win32
+		{96A9C4CD-BD76-48A3-8A09-06C0E0C86173}.Release|Win32.ActiveCfg = Release|Win32
+		{96A9C4CD-BD76-48A3-8A09-06C0E0C86173}.Release|Win32.Build.0 = Release|Win32
+		{96A9C4CD-BD76-48A3-8A09-06C0E0C86173}.Release|x64.ActiveCfg = Release|Win32
+		{B454ABFA-5A62-41D9-9B54-E95C267781BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B454ABFA-5A62-41D9-9B54-E95C267781BB}.Debug|Win32.Build.0 = Debug|Win32
+		{B454ABFA-5A62-41D9-9B54-E95C267781BB}.Debug|x64.ActiveCfg = Debug|Win32
+		{B454ABFA-5A62-41D9-9B54-E95C267781BB}.Release|Win32.ActiveCfg = Release|Win32
+		{B454ABFA-5A62-41D9-9B54-E95C267781BB}.Release|Win32.Build.0 = Release|Win32
+		{B454ABFA-5A62-41D9-9B54-E95C267781BB}.Release|x64.ActiveCfg = Release|Win32
+		{9F4C04F7-8EAC-4396-B75C-1BFFDD38D0B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F4C04F7-8EAC-4396-B75C-1BFFDD38D0B6}.Debug|Win32.Build.0 = Debug|Win32
+		{9F4C04F7-8EAC-4396-B75C-1BFFDD38D0B6}.Debug|x64.ActiveCfg = Debug|Win32
+		{9F4C04F7-8EAC-4396-B75C-1BFFDD38D0B6}.Release|Win32.ActiveCfg = Release|Win32
+		{9F4C04F7-8EAC-4396-B75C-1BFFDD38D0B6}.Release|Win32.Build.0 = Release|Win32
+		{9F4C04F7-8EAC-4396-B75C-1BFFDD38D0B6}.Release|x64.ActiveCfg = Release|Win32
+		{D0704193-B392-4B84-BB9C-835382FECACE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0704193-B392-4B84-BB9C-835382FECACE}.Debug|Win32.Build.0 = Debug|Win32
+		{D0704193-B392-4B84-BB9C-835382FECACE}.Debug|x64.ActiveCfg = Debug|Win32
+		{D0704193-B392-4B84-BB9C-835382FECACE}.Release|Win32.ActiveCfg = Release|Win32
+		{D0704193-B392-4B84-BB9C-835382FECACE}.Release|Win32.Build.0 = Release|Win32
+		{D0704193-B392-4B84-BB9C-835382FECACE}.Release|x64.ActiveCfg = Release|Win32
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Debug|Win32.Build.0 = Debug|Win32
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Debug|x64.ActiveCfg = Debug|x64
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Debug|x64.Build.0 = Debug|x64
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Release|Win32.ActiveCfg = Release|Win32
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Release|Win32.Build.0 = Release|Win32
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Release|x64.ActiveCfg = Release|x64
+		{3D0818FA-51C0-43CD-9030-120D00EC08EC}.Release|x64.Build.0 = Release|x64
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Debug|Win32.Build.0 = Debug|Win32
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Debug|x64.ActiveCfg = Debug|x64
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Debug|x64.Build.0 = Debug|x64
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Release|Win32.ActiveCfg = Release|Win32
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Release|Win32.Build.0 = Release|Win32
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Release|x64.ActiveCfg = Release|x64
+		{C63C4997-9FDA-47E5-A1F1-41BE1D56484A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dexusint.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VirtualCall\\VirtualCall.vcxproj
+		SccProjectName1 = VirtualCall
+		SccLocalPath1 = VirtualCall
+		SccProjectUniqueName2 = VirtDestructor\\VirtDestructor.vcxproj
+		SccProjectName2 = VirtDestructor
+		SccLocalPath2 = VirtDestructor
+		SccProjectUniqueName3 = VirtualConstructor\\VirtualConstructor.vcxproj
+		SccProjectName3 = VirtualConstructor
+		SccLocalPath3 = VirtualConstructor
+		SccProjectUniqueName4 = TemprotaryObjects\\TemprotaryObjects.vcxproj
+		SccProjectName4 = TemprotaryObjects
+		SccLocalPath4 = TemprotaryObjects
+		SccProjectUniqueName5 = MultiInheritance\\MultiInheritance.vcxproj
+		SccProjectName5 = MultiInheritance
+		SccLocalPath5 = MultiInheritance
+		SccProjectUniqueName6 = VirtTrick\\VirtTrick.vcxproj
+		SccProjectName6 = VirtTrick
+		SccLocalPath6 = VirtTrick
+		SccProjectUniqueName7 = ExeptionRollBack\\ExeptionRollBack.vcxproj
+		SccProjectName7 = ExeptionRollBack
+		SccLocalPath7 = ExeptionRollBack
+	EndGlobalSection
+EndGlobal

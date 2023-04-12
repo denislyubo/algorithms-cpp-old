@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsyncFuture", "AsyncFuture\AsyncFuture.vcxproj", "{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wait2Tasks", "Wait2Tasks\Wait2Tasks.vcxproj", "{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameWithCopyConst", "GameWithCopyConst\GameWithCopyConst.vcxproj", "{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CondVarWait", "CondVarWait\CondVarWait.vcxproj", "{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CondVarWaitAsync", "CondVarWaitAsync\CondVarWaitAsync.vcxproj", "{39C2E96F-2411-43BF-8856-7E869FC20E02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParallelAccumulate", "ParallelAccumulate\ParallelAccumulate.vcxproj", "{72BA658A-1C1B-4EBE-9BF7-077A43752379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Debug|x64.ActiveCfg = Debug|x64
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Debug|x64.Build.0 = Debug|x64
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Debug|x86.Build.0 = Debug|Win32
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Release|x64.ActiveCfg = Release|x64
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Release|x64.Build.0 = Release|x64
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Release|x86.ActiveCfg = Release|Win32
+		{DBAE8AD6-FA93-43C1-AF1F-4551E4398D75}.Release|x86.Build.0 = Release|Win32
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Debug|x64.ActiveCfg = Debug|x64
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Debug|x64.Build.0 = Debug|x64
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Debug|x86.Build.0 = Debug|Win32
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Release|x64.ActiveCfg = Release|x64
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Release|x64.Build.0 = Release|x64
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Release|x86.ActiveCfg = Release|Win32
+		{6D536C5D-D3C4-4BA7-931F-02F9D8E77813}.Release|x86.Build.0 = Release|Win32
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Debug|x64.ActiveCfg = Debug|x64
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Debug|x64.Build.0 = Debug|x64
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Debug|x86.ActiveCfg = Debug|Win32
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Debug|x86.Build.0 = Debug|Win32
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Release|x64.ActiveCfg = Release|x64
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Release|x64.Build.0 = Release|x64
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Release|x86.ActiveCfg = Release|Win32
+		{6CA909E8-C1A1-48E1-B762-D4E72BE3F189}.Release|x86.Build.0 = Release|Win32
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Debug|x64.ActiveCfg = Debug|x64
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Debug|x64.Build.0 = Debug|x64
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Debug|x86.Build.0 = Debug|Win32
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Release|x64.ActiveCfg = Release|x64
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Release|x64.Build.0 = Release|x64
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Release|x86.ActiveCfg = Release|Win32
+		{D3795755-D9FD-4D53-A9E9-F5BFF6C365E2}.Release|x86.Build.0 = Release|Win32
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Debug|x64.ActiveCfg = Debug|x64
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Debug|x64.Build.0 = Debug|x64
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Debug|x86.ActiveCfg = Debug|Win32
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Debug|x86.Build.0 = Debug|Win32
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Release|x64.ActiveCfg = Release|x64
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Release|x64.Build.0 = Release|x64
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Release|x86.ActiveCfg = Release|Win32
+		{39C2E96F-2411-43BF-8856-7E869FC20E02}.Release|x86.Build.0 = Release|Win32
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Debug|x64.ActiveCfg = Debug|x64
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Debug|x64.Build.0 = Debug|x64
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Debug|x86.ActiveCfg = Debug|Win32
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Debug|x86.Build.0 = Debug|Win32
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Release|x64.ActiveCfg = Release|x64
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Release|x64.Build.0 = Release|x64
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Release|x86.ActiveCfg = Release|Win32
+		{72BA658A-1C1B-4EBE-9BF7-077A43752379}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dexusint.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AsyncFuture\\AsyncFuture.vcxproj
+		SccProjectName1 = AsyncFuture
+		SccLocalPath1 = AsyncFuture
+		SccProjectUniqueName2 = Wait2Tasks\\Wait2Tasks.vcxproj
+		SccProjectName2 = Wait2Tasks
+		SccLocalPath2 = Wait2Tasks
+		SccProjectUniqueName3 = GameWithCopyConst\\GameWithCopyConst.vcxproj
+		SccProjectName3 = GameWithCopyConst
+		SccLocalPath3 = GameWithCopyConst
+		SccProjectUniqueName4 = CondVarWait\\CondVarWait.vcxproj
+		SccProjectName4 = CondVarWait
+		SccLocalPath4 = CondVarWait
+		SccProjectUniqueName5 = CondVarWaitAsync\\CondVarWaitAsync.vcxproj
+		SccProjectName5 = CondVarWaitAsync
+		SccLocalPath5 = CondVarWaitAsync
+		SccProjectUniqueName6 = ParallelAccumulate\\ParallelAccumulate.vcxproj
+		SccProjectName6 = ParallelAccumulate
+		SccLocalPath6 = ParallelAccumulate
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+$tf/
+$tf1/
+.vs/
+Debug/
+Release/
+x64/
+*sdf
+*suo
+*vssscc
+*vspscc
+*.exe
+logs/
+*log/
+Drops/
